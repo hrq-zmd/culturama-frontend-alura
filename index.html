@@ -43,7 +43,8 @@
                 <label for="photo">Upload de Foto</label>
                 <input id="photo" type="file" accept="image/*" name="userImage">
                 <br>
-            
+
+             </fieldset>
             
 
             <fieldset>
@@ -61,8 +62,10 @@
                 <input id="notInformed" type="radio" name="userGender" value="notInformed">
                 <label for="notInformed">Prefiro Não Informar</label>
                 <br>
-
+            
+               
                 <select name="maritalStatus">
+                    <legend>Estado Civil</legend>
                     <label for="maritalStatus">Estado Civil:</label>
                     <option value="notInformed">Selecione</option>
                     <option value="casado">Casado</option>
@@ -70,6 +73,7 @@
                     <option value="divorciado">Divorciado</option>
                     <option value="uniaoEstavel">União Estável</option>
                 </select>
+                <br>
 
                 <label for="userState">Estado</label>
                 <select name="UF" required>
@@ -101,6 +105,9 @@
                     <option value="sergipe">Sergipe</option>
                     <option value="tocantins">Tocantins</option>
                 </select>
+                <br>
+
+                </fieldset>
 
                 <legend>Hábitos</legend>
                     <input id="instagram" type="checkbox" name="social" value="instagram">
@@ -126,8 +133,9 @@
 
 
 
+
             
-            </fieldset>
+            
 
 
             <button type="submit">Enviar</button>
