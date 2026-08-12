@@ -43,7 +43,8 @@
                 <label for="userImage">Upload de Foto</label>
                 <input type="file" accept="image/*" name="userImage">
                 <br>
-            
+
+             </fieldset>
             
 
             <fieldset>
@@ -61,8 +62,10 @@
                 <input type="radio" name="userGender" value="notInformed">
                 <label for="userGender">Prefiro Não Informar</label>
                 <br>
-
+            
+               
                 <select name="maritalStatus">
+                    <legend>Estado Civil</legend>
                     <label for="maritalStatus">Estado Civil:</label>
                     <option value="notInformed">Selecione</option>
                     <option value="casado">Casado</option>
@@ -70,29 +73,31 @@
                     <option value="divorciado">Divorciado</option>
                     <option value="uniaoEstavel">União Estável</option>
                 </select>
+                <br>
 
-                <select name="UF" id="">
-                    <label for="userState">Estado</label>
-                    <option value="userState"> Acre </option>
-                    <option value="userState"></option>Alagoas</option>
-                    <option value="userState">Amapá</option>
-                    <option value="userState">Amazonas</option>
-                    <option value="userState">Bahia</option>
+                <select name="userState" id="state">
+                    <label for="state">Estado</label>
+                    <option value="userState">Selecione</option>
+                    <option value="acre"> Acre </option>
+                    <option value="ualagoas">Alagoas</option>
+                    <option value="amapa">Amapá</option>
+                    <option value="amazonas">Amazonas</option>
+                    <option value="bahia">Bahia</option>
                     <option value="userState">Ceará</option>
-                    <option value="userState">Distrito Federal</option>
-                    <option value="userState">Espirito Santo</option>
-                    <option value="userState">Goiás</option>
-                    <option value="userState">Maranhão</option>
-                    <option value="userState">Mato Grosso do Sul</option>
-                    <option value="userState">Mato Grosso</option>
-                    <option value="userState">Minas Gerais</option>
-                    <option value="userState">Pará</option>
-                    <option value="userState">Paraíba</option>
-                    <option value="userState">Paraná</option>
-                    <option value="userState">Pernambuco</option>
+                    <option value="distritoFederal">Distrito Federal</option>
+                    <option value="espiritoSanto">Espirito Santo</option>
+                    <option value="goias">Goiás</option>
+                    <option value="maranhao">Maranhão</option>
+                    <option value="matoGrossoDoSul">Mato Grosso do Sul</option>
+                    <option value="matoGrosso">Mato Grosso</option>
+                    <option value="minasGerais">Minas Gerais</option>
+                    <option value="para">Pará</option>
+                    <option value="paraiba">Paraíba</option>
+                    <option value="parana">Paraná</option>
+                    <option value="pernambuco">Pernambuco</option>
                     <option value="userState">Piauí</option>
-                    <option value="userState">Rio de Janeiro</option>
-                    <option value="userState">Rio Grande do Norte</option>
+                    <option value="rioDeJaneiro">Rio de Janeiro</option>
+                    <option value="rioGrandeDoSul">Rio Grande do Norte</option>
                     <option value="userState">Rio Grande do Sul</option>
                     <option value="userState">Rondônia</option>
                     <option value="userState">Roraima</option>
@@ -101,13 +106,21 @@
                     <option value="userState">Sergipe</option>
                     <option value="userState">Tocantins</option>
                 </select>
+                <br>
+
+                </fieldset>
+
+               <fieldset>
+                <label for="musicStyle">Estilo Musical</label>
+                <input id="musicStyle" type="text" name="userMusicStyle">
+                </fieldset>
 
 
 
 
 
             
-            </fieldset>
+            
 
 
             <button type="submit">Enviar</button>
