@@ -22,8 +22,6 @@
 
         <section>
 
-            <!-- Dados Pessoais -->
-
             <form action="sucesso.html" method="get">
                 <fieldset>
                     <legend>Dados Pessoais</legend>
@@ -45,7 +43,8 @@
                     <br>
 
                     <label for="phoneNumber">Telefone</label>
-                    <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + numero sem espaços ou hífen">
+                    <input id="phoneNumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + numero sem espaços ou hífen" aria-describedby="phoneHelp">>
+                    <small id="phoneHelp">Formato: DDD + número sem espaços ou hífen</small>
                     <br>
 
                     <label for="photo">Upload de Foto</label>
